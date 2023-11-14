@@ -5,6 +5,13 @@ import lombok.*;
 
 import java.io.Serializable;
 
+/**
+ * Represents an employee entity in the system.
+ *
+ * This class is annotated with JPA annotations to define its mapping to the database.
+ * It includes fields for various attributes such as name, email, job title, phone number, image URL, and employee code.
+ * The class also implements the Serializable interface to indicate that instances of the class can be serialized.
+ */
 @Entity
 @Getter
 @Setter
